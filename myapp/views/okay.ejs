@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script>
+   function myclick(){
+     var y = document.getElementById('place').value;
+     document.getElementById('score').innerHTML = y;
+     console.log("Hello!");
+   }
+  </script>
+</head>
+<body>
+  <input type="text" id="place">
+  <button onclick="myclick()">Press</button>
+  <div>
+    <%= x %>
+  </div>
+  <div id="score">
+    0
+  </div>
+</body>
+</html>

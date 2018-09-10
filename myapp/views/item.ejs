@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script>
+      function newclick(){
+        var a = document.getElementById('alt').value;
+        document.getElementById('sex').innerHTML = a.length;
+      }
+    </script>
+  </head>
+  <body>
+  <input type="text" id="alt">
+  <button onclick="newclick()">Press</button>
+  <div id="sex"></div>
+  </body>
+</html>
